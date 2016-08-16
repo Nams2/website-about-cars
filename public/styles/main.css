@@ -1,0 +1,447 @@
+.hamburger-menu {
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  background-color: #f2f2f2; }
+  .hamburger-menu div {
+    padding: 0; }
+  .hamburger-menu .menu-logo {
+    cursor: pointer; }
+  .hamburger-menu .delete-button {
+    cursor: pointer; }
+  .hamburger-menu img {
+    height: 90px;
+    width: auto; }
+  .hamburger-menu .submenu-title {
+    text-align: center;
+    margin-bottom: 10px; }
+    .hamburger-menu .submenu-title p {
+      margin: 0 auto;
+      width: 70%;
+      border-bottom: 2px solid #bebebe; }
+  .hamburger-menu .category {
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0; }
+  .hamburger-menu .menu-end .delete-button {
+    display: block;
+    margin: 0 auto; }
+
+.navigation {
+  position: relative;
+  z-index: 1;
+  padding: 0; }
+  .navigation .container-fluid {
+    padding: 0; }
+  .navigation .navbar {
+    margin: 0; }
+  .navigation .navbar-collapse {
+    padding: 0; }
+  .navigation img {
+    height: 90px;
+    width: auto; }
+  .navigation .nav-logo,
+  .navigation .nav-menu {
+    padding: 0; }
+
+.container-fluid.slider {
+  padding: 0; }
+
+#myCarousel {
+  margin-bottom: 60px;
+  position: relative;
+  overflow: hidden;
+  /* Since positioning the image, we need to help out the caption */ }
+  #myCarousel .carousel-button {
+    z-index: 15;
+    position: relative; }
+  #myCarousel .carousel-indicators {
+    width: 90px;
+    height: 30px;
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: auto; }
+    #myCarousel .carousel-indicators li {
+      position: relative;
+      float: left;
+      width: 15px;
+      height: 15px;
+      margin: 3px;
+      background-color: #bbb;
+      border: none; }
+      #myCarousel .carousel-indicators li.active {
+        background-color: #004b8d; }
+  #myCarousel .carousel-caption {
+    z-index: 1; }
+    #myCarousel .carousel-caption .carousel-veloster {
+      font-size: 18px;
+      color: #fff;
+      padding: 15px 35px;
+      border: 1px solid #fff;
+      border-radius: 50px; }
+      #myCarousel .carousel-caption .carousel-veloster:hover {
+        text-decoration: none;
+        background-color: #eee;
+        color: #00478d;
+        cursor: pointer; 
+      }
+    #myCarousel .carousel-caption .carousel-sonata-2 {
+      font-size: 18px;
+      color: #fff;
+      padding: 15px 35px;
+      border: 1px solid #fff;
+      border-radius: 50px; }
+      #myCarousel .carousel-caption .carousel-sonata-2:hover {
+        text-decoration: none;
+        background-color: #eee;
+        color: #00478d;
+        cursor: pointer; }
+    #myCarousel .carousel-caption .carousel-tucson {
+      font-size: 18px;
+      color: #fff;
+      padding: 15px 35px;
+      border-radius: 50px;
+      background-color: #0e4d96; }
+      #myCarousel .carousel-caption .carousel-tucson:hover {
+        text-decoration: none;
+        background-color: #fff;
+        color: #0e4d96;
+        cursor: pointer; }
+    #myCarousel .carousel-caption .carousel-sonata {
+      font-size: 18px;
+      color: #fff;
+      padding: 15px 35px;
+      border-radius: 50px;
+      background-color: #0e4d96; }
+      #myCarousel .carousel-caption .carousel-sonata:hover {
+        text-decoration: none;
+        background-color: #fff;
+        color: #0e4d96;
+        cursor: pointer; }
+  #myCarousel .item {
+    background-color: #555;
+    overflow: hidden; }
+    #myCarousel .item .img-responsive {
+      margin: 0 auto;
+      width: 100%; }
+
+.sedans,
+.crossovers {
+  padding: 0; }
+
+.banner {
+  margin: 0 auto; }
+  .banner .banner-image {
+    margin-left: auto;
+    margin-right: auto; }
+
+.lineup-title {
+  color: gray;
+  font-size: 30px;
+  margin: 75px 0 20px 20px;
+  font-family: Arial; }
+
+.vehicle {
+  padding: 10px 15px; }
+  .vehicle .model-name {
+    color: #0055b8;
+    font-size: 20px; }
+  .vehicle .price {
+    color: #002d73;
+    font-size: 18px; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+  ul li {
+    list-style: none;
+    display: inline-block; }
+
+.find-a-dealer {
+  background-color: #004b8d;
+  padding: 5% 0;
+  text-align: center;
+  position: relative; }
+  .find-a-dealer .location {
+    margin: 0 auto; }
+    .find-a-dealer .location .use-my-location {
+      display: inline-block;
+      width: 25%;
+      padding: 10px 5px;
+      box-sizing: border-box;
+      border: 1px solid #fff;
+      border-radius: 25px;
+      color: #fff;
+      font-size: 14px; }
+      .find-a-dealer .location .use-my-location:hover {
+        background-color: #fff;
+        color: #004b8d;
+        cursor: pointer; }
+    .find-a-dealer .location .zip-code-wrapper {
+      display: inline-block;
+      box-sizing: border-box; }
+      .find-a-dealer .location .zip-code-wrapper .zip-code {
+        display: inline-block;
+        padding: 10px 0 10px 20px;
+        border-radius: 10px; }
+      .find-a-dealer .location .zip-code-wrapper .go-button {
+        display: inline-block;
+        text-align: center;
+        width: 44px;
+        height: 44px;
+        font-size: 15px;
+        padding: 5px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        margin-left: 20px;
+        color: #fff;
+        top: -5px; }
+        .find-a-dealer .location .zip-code-wrapper .go-button:hover {
+          color: #004b8d;
+          background-color: #fff;
+          cursor: pointer;
+          text-decoration: none; }
+
+          
+
+.shopping-tools {
+  text-align: center; }
+
+.hyundai-logo-2 img {
+  margin: 0 auto; }
+
+.social {
+  margin: 0 auto;
+  text-align: center; }
+  .social a {
+    color: black; }
+
+.copyright {
+  color: #9a9a9a;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 5% 7.5%; }
+
+.shopping-tool {
+  padding: 17.5px 0;
+  font-size: 16px; }
+
+.legals {
+  color: #0075c9; }
+  .legals li {
+    padding: 0 2%;
+    font-size: 18px; }
+    .legals li:hover {
+      color: #0075c9;
+      text-decoration: none; }
+
+.icon {
+  display: inline-block;
+  position: relative;
+  text-indent: -9999px;
+  width: 45px;
+  height: auto;
+  opacity: 1;
+  margin: 0 5px; }
+
+.strike {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 16px; }
+  .strike:before {
+    border-top: 2px solid #bbb;
+    content: "";
+    margin: 0 auto;
+    /* this centers the line to the full width specified */
+    position: absolute;
+    /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 85%;
+    z-index: -1; }
+  .strike .strike-content {
+    color: #bbb;
+    background-color: #fff;
+    display: inline-block;
+    padding: 0 20px; }
+  .strike.strike-color {
+    color: #80a5c6; }
+    .strike.strike-color:before {
+      border-top: 2px solid #80a5c6; }
+    .strike.strike-color .strike-content {
+      color: #80a5c6;
+      background-color: #004b8d; }
+
+/*# sourceMappingURL=main.css.map */
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  [class*="col-"] {
+          width: 50%;
+      }
+      .sedans{
+        width: 100%;
+      }
+      .crossovers{
+        width: 100%;
+      }
+
+    
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    [class*="col-"] {
+        width: 50%;
+    }
+    .sedans{
+      width: 100%;
+    }
+    .crossovers{
+      width: 100%;
+    }
+
+
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    [class*="col-"] {
+        width: 50%;
+    }
+    .sedans{
+      width: 100%;
+    }
+    .crossovers{
+      width: 100%;
+    }
+
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    [class*="col-"] {
+        width: 50%;
+    }
+    .sedans{
+      width: 100%;
+    }
+    .crossovers{
+      width: 100%;
+    }
+
+
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+
+
+
+
+
+
