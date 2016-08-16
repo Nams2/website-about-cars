@@ -1,5 +1,7 @@
+Responsive website showing details of cars.
 
-Using node.js Express server
+Using Node.js as the server, angular JS for injecting the contents in the index.html, bootstrap for responsive website and media queries for mobile orientation.
+
 
 Steps to run this web application:
 Open cmd and go to the folder
